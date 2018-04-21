@@ -18,6 +18,13 @@ div.image img {
     border-radius: 50%;
     height: auto;
     }
-div.class bio {
-  width: 50vw;
-}
+
+input {
+     border: 0;
+     padding: 10px;
+     font-size: 18px;
+   }
+   input[type="submit"] {
+     color: white;
+     background: red;
+   }
