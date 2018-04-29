@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sign Up</title>
+  <head>
+    <title>Sign Up</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <ul class='nav'>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="meettheteacher.html">Meet the teacher</a></li>
+      <li><a href="signup.html">Sign up</a></li>
+      <li><a href="Things you need to know.html">Things you need to know</a></li>
+    </ul>
+<h1>Sign up</h1>
+  <div class="image">
+    <img src="http://ellenhorn.com/blog/wp-content/uploads/2017/03/542ab3194a2f09b8094f074009bd2172.png" />
+    </div>
+<p>text to go here including sign up form</p>
+</body>
 
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <ul class='nav'>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="meettheteacher.html">Meet the teacher</a></li>
-            <li><a href="signup.html">Sign up</a></li>
-            <li><a href="Things you need to know.html">Things you need to know</a></li>
-        </ul>
+
+
+
+    <footer>
+      <p>Created by: Cheryl McMillan, Phillipa Newis, Cate McLaurin</p>
+        <p>Contact us: <a href="mailto:yoga@acas.org.uk">
+          yoga@acas.org.uk</a></p>
+
+    <div class="popup" onclick="myFunction()">Privacy
+      <span class="popuptext" id="Privacy">We will keep your data safe, and promise not to share it with anyone</span>
+      <script>
+
+function myFunction() {
+    var popup = document.getElementById("Privacy");
+    popup.classList.toggle("show");
+}
+</script>
+    </div>
+
+<div class="popup" onclick="myFunction2()">Cookies
+    <span class="popuptext" id="Cookies">No cookies consumed in the making of this site</span>
+    <script>
+
+    function myFunction2() {
+    var popup = document.getElementById("Cookies");
+    popup.classList.toggle("show");
+    }
+    </script>
+    </div>
+</footer>
