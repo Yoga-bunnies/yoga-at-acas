@@ -47,6 +47,13 @@ a.link {
   display: inline-block;
     }
 
+    ul.buttons li {
+      display: inline-block;
+      text-align: center;
+      border: 2px solid;
+      border-color: white;
+    }
+
     a:hover, a:active {
         background-color: black;
         color: white;
