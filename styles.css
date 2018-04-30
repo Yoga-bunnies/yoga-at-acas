@@ -23,9 +23,10 @@ ul.nav li {
    }
 
    ul.nav a {
-     color: white
+     color: white;
    }
 div.image img {
+    max-width: 100%;
     width: 30vw;
     border-radius: 50%;
     height: auto;
@@ -68,20 +69,23 @@ footer {
   color: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
+  padding: 10px;
 }
   .popup {
     position: relative;
     display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
     cursor: pointer;
 }
 .popup .popuptext {
     visibility: hidden;
     width: 160px;
-    background-color: #555;
-    color: #fff;
+    background-color: dodgerblue;
+    color: white;
     text-align: center;
     border-radius: 6px;
-    padding: 8px 0;
+    padding: 20px 0;
     position: absolute;
     z-index: 1;
     bottom: 125%;
