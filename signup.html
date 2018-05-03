@@ -10,13 +10,50 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="meettheteacher.html">Meet the teacher</a></li>
       <li><a href="signup.html">Sign up</a></li>
-      <li><a href="Things you need to know.html">Things you need to know</a></li>
+      <li><a href="Things you need to know.html">Details</a></li>
     </ul>
-<h1>Sign up</h1>
+<h1>Sign up to yoga</h1>
   <div class="image">
     <img src="http://ellenhorn.com/blog/wp-content/uploads/2017/03/542ab3194a2f09b8094f074009bd2172.png" alt="yoga stretching"/>
     </div>
-<p>text to go here including sign up form</p>
+
+
+    <form>
+      <form action="/action_page.php" target="_self" method=POST>
+        <fieldset>
+            <legend>Personal information:</legend>
+    First name: <br>
+    <input type="text" name="firstname"><br>
+    Last name: <br>
+    <input type="text" name="lastname"><br>
+
+    Yoga goals (tick all that apply): <br>
+    <input type="checkbox" name="yoga goals" value="flexibility">I want to increase my flexibility<br>
+    <input type="checkbox" name="yoga goals" value="strength">I want to improve my strength<br>
+    <input type="checkbox" name="yoga goals" value="fitness">I want to feel fitter<br>
+    <input type="checkbox" name="yoga goals" value="calmer">I want to feel calmer<br>
+
+
+
+
+    </fieldset>
+
+
+
+    <fieldset>
+        <legend>Contact details:</legend>
+        Email: <br>
+        <input type="email" placeholder="Your Acas email address"><br>
+        Telephone: <br>
+        <input type="Telephone" placeholder="Your preferred contact number"><br>
+    </fieldset>
+    <fieldset>
+      <legend>Submit:</legend>
+    Commitment: <br>
+    <input type="radio" name="commitment" value="declaration"> By submitting this form I am committing to pay £60 to secure my place for the next six yoga classes<br>
+    <input type="submit" value="Submit">
+  </fieldset>
+    </form>
 </body>
 
 

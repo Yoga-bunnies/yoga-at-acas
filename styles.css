@@ -16,15 +16,32 @@ body {
  }
 
 ul.nav li {
-     display: block;
-     text-align: right;
-     padding-right: 10px;
-     background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  overflow: hidden;
+  background-color: #333;
+  float: right;
    }
 
-   ul.nav a {
-     color: white;
+
+
+ul.nav li a:hover {
+    background-color: #111;
    }
+
+ul.nav a {
+    display: block;
+    width: 120px;
+    color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   }
+
 div.image img {
     max-width: 100%;
     width: 30vw;
@@ -38,6 +55,16 @@ div.bio {
     padding: 25px;
   }
 
+  div.instructions {
+    text-align: left;
+    background: black;
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    max-width: 700px;
+      }
+
+
 a.link {
   background-color: white;
   color: black;
@@ -46,6 +73,13 @@ a.link {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+    }
+
+    ul.buttons li {
+      display: inline-block;
+      text-align: center;
+      border: 2px solid;
+      border-color: white;
     }
 
     a:hover, a:active {

@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <title>Things you need to know</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
@@ -11,16 +12,16 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="meettheteacher.html">Meet the teacher</a></li>
     <li><a href="signup.html">Sign up</a></li>
-    <li><a href="Things you need to know.html">Things you need to know</a></li>
+    <li><a href="Things you need to know.html">Details</a></li>
   </ul>
 
-  <h1 class=things>Things you need to know</h1>
+  <h1 class=things>Details</h1>
 
 
 
 <div class=instructions>
 
-<p>Here's the essential information about yoga classes at Acas. If you have a question that's not answered below, please drop us an email: yoga@acas.org.uk</p>
+<p>Here's the essential information about yoga classes at Acas. If you have a question that's not answered below, please drop us an email: <a href="mailto:yoga@acas.org.uk">yoga@acas.org.uk</p></a>
 
   <h2> What am I paying for?</h2>
     <p>The cost is £60 for a block of six classes. To keep things simple we are asking for a one-off cash payment to cover all six classes. Payment reserves your place. Please give your money to Cate McLaurin or Philippa Newis.</p>
@@ -64,8 +65,28 @@
 </body>
 
 <footer>
-  <p>Created by: Cheryl McMillan, Philippa Newis and Cate McLaurin</p>
-  <p>Contact information: <a href="mailto:yoga@acas.org.uk">
-  yoga@acas.org.uk</a>.</p>
-  <p>Privacy and cookies</p>
+  <p>Created by: Cheryl McMillan, Phillipa Newis, Cate McLaurin</p>
+    <p>Contact us: <a href="mailto:yoga@acas.org.uk">yoga@acas.org.uk</a></p>
+
+<div class="popup" onclick="myFunction()">Privacy
+  <span class="popuptext" id="Privacy">We will keep your data safe, and promise not to share it with anyone</span>
+  <script>
+
+function myFunction() {
+var popup = document.getElementById("Privacy");
+popup.classList.toggle("show");
+}
+</script>
+</div>
+
+<div class="popup" onclick="myFunction2()">Cookies
+<span class="popuptext" id="Cookies">Many cookies consumed in the making of this site</span>
+<script>
+
+function myFunction2() {
+var popup = document.getElementById("Cookies");
+popup.classList.toggle("show");
+}
+</script>
+</div>
 </footer>
