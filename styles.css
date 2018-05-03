@@ -27,8 +27,6 @@ ul.nav li {
   float: right;
    }
 
-
-
 ul.nav li a:hover {
     background-color: #111;
    }
@@ -43,7 +41,6 @@ ul.nav a {
    }
 
 div.image img {
-    max-width: 100%;
     width: 30vw;
     border-radius: 50%;
     height: auto;
@@ -103,23 +100,20 @@ footer {
   color: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  padding: 10px;
 }
   .popup {
     position: relative;
     display: inline-block;
-    margin-right: 30px;
-    margin-left: 30px;
     cursor: pointer;
 }
 .popup .popuptext {
     visibility: hidden;
     width: 160px;
-    background-color: dodgerblue;
-    color: white;
+    background-color: #555;
+    color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 0;
+    padding: 8px 0;
     position: absolute;
     z-index: 1;
     bottom: 125%;
