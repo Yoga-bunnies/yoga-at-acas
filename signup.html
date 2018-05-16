@@ -2,17 +2,24 @@
 <html>
   <head>
     <title>Sign Up</title>
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <meta name="viewport" content="width=device-width,
-initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <ul class='nav'>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="meettheteacher.html">Meet the teacher</a></li>
-      <li><a href="signup.html">Sign up</a></li>
-      <li><a href="Things you need to know.html">Things you need to know</a></li>
-    </ul>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Yoga @ Acas</a>
+        </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="meettheteacher.html">Teacher</a></li>
+        <li class="active"><a href="signup.html">Sign up</a></li>
+        <li><a href="Things you need to know.html">Details</a></li>
+      </ul>
+    </div>
+  </nav>
 <h1>Sign up to yoga</h1>
   <div class="image">
     <img src="http://ellenhorn.com/blog/wp-content/uploads/2017/03/542ab3194a2f09b8094f074009bd2172.png" />
@@ -20,7 +27,7 @@ initial-scale=1.0">
 
 
     <form>
-      <form action="/action_page.php" target="_self" method=POST>
+      <form action="/form.php" target="_self" method=POST>
         <fieldset>
             <legend>Personal information:</legend>
     First name: <br>
@@ -75,7 +82,7 @@ function myFunction() {
     </div>
 
 <div class="popup" onclick="myFunction2()">Cookies
-    <span class="popuptext" id="Cookies">No cookies consumed in the making of this site</span>
+    <span class="popuptext" id="Cookies">Many cookies were consumed in the making of this site</span>
     <script>
 
     function myFunction2() {
@@ -89,3 +96,4 @@ function myFunction() {
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
+</html>

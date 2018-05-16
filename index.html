@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>Yoga @ Acas</title>
         <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     </head>
-    <body>
-        <ul class='nav'>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="meettheteacher.html">Meet the teacher</a></li>
-            <li><a href="signup.html">Sign up</a></li>
-            <li><a href="Things you need to know.html">Details</a></li>
-        </ul>
-
-      <div id='page_content'>
-
-    <h1>Yoga @ Acas</h1>
-
-    <div class="image">
-      <img src="https://www.artofliving.org/sites/www.artofliving.org/files/unity2/blog_image/A-Brief-History-of-Yoga.jpg" />
-      </div>
-
-      <ul class='buttons'>
-        <li><a href="meettheteacher.html" class=link>Meet the teacher</a></li>
-        <li><a href="signup.html" class=link>Sign up here</a></li>
-        <li><a href="Things you need to know.html" class=link>Things you need to know</a></li>
-
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Yoga @ Acas</a>
+        </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="meettheteacher.html">Teacher</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="Things you need to know.html">Details</a></li>
       </ul>
+    </div>
+  </nav>
 
-      <br>
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-          </body>
+    <div id='page_content'>
+      <h1>Yoga @ Acas</h1>
+        <div class="container">
+          <div class="row">
+            <ul class='buttons'>
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="http://www.yogacentric.co.uk/cupboard/uploads/2014/10/Jacqui-Hooper-300x300.jpg" alt="Jacqui Hooper picture"/>
+                    <li><a href="meettheteacher.html" class=link>Meet the teacher</a></li>
+                  </div>
+                </div>
+                <div class="col-sm-4"><div class="thumbnail">
+                  <img src="http://ellenhorn.com/blog/wp-content/uploads/2017/03/542ab3194a2f09b8094f074009bd2172.png" />
+                    <li><a href="signup.html" class=link>Sign up here</a></li>
+                  </div>
+                </div>
+              <div class="col-sm-4"><div class="thumbnail">
+                <img src="https://media.istockphoto.com/photos/portrait-of-gorgeous-young-woman-practicing-yoga-indoor-beautiful-picture-id623774908?k=6&m=623774908&s=612x612&w=0&h=y5ds3Ot3RzNCZ1LpMc3swB0nlXRgEPDR3a-p8xOTozc="/>
+                  <li><a href="Things you need to know.html" class=link>Details</a></li>
+                </div>
+              </div>
+            </ul>
+</div>
+  <footer>
+    <p>Created by: Cheryl McMillan, Phillipa Newis, Cate McLaurin</p>
+      <p>Contact us: <a href="mailto:yoga@acas.org.uk">yoga@acas.org.uk</a></p>
+        <div class="popup" onclick="myFunction()">Privacy
+          <span class="popuptext" id="Privacy">We will keep your data safe, and promise not to share it with anyone</span>
+<script>
+  function myFunction() {
+  var popup = document.getElementById("Privacy");
+  popup.classList.toggle("show");
+            }
+  </script>
+</div>
 
-          <footer>
-            <p>Created by: Cheryl McMillan, Phillipa Newis, Cate McLaurin</p>
+<div class="popup" onclick="myFunction2()">Cookies
+  <span class="popuptext" id="Cookies">Many cookies consumed in the making of this site</span>
+    <script>
 
-
-              <p>Contact us: <a href="mailto:yoga@acas.org.uk">yoga@acas.org.uk</a></p>
-
-          <div class="popup" onclick="myFunction()">Privacy
-            <span class="popuptext" id="Privacy">We will keep your data safe, and promise not to share it with anyone</span>
-            <script>
-
-
-
-      function myFunction() {
-          var popup = document.getElementById("Privacy");
-          popup.classList.toggle("show");
+      function myFunction2() {
+      var popup = document.getElementById("Cookies");
+      popup.classList.toggle("show");
       }
       </script>
-          </div>
+  </div>
+</footer>
 
-      <div class="popup" onclick="myFunction2()">Cookies
-         <span class="popuptext" id="Cookies">Many cookies consumed in the making of this site</span>
-          <script>
-
-          function myFunction2() {
-          var popup = document.getElementById("Cookies");
-          popup.classList.toggle("show");
-          }
-          </script>
-          </div>
-      </footer>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+  </div>
+</html>
