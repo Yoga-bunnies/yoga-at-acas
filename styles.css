@@ -68,7 +68,26 @@ div.bio {
     font-weight: 300;
     max-width: 700px;
       }
+      div.form {
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
 
+
+div.form .text-box {
+  width: 400px;
+}
+
+div.form.span {
+  color: white;
+  font-size: 18px;
+  padding: 100px;
+}
 
 a.link {
   background-color: white;
@@ -92,15 +111,23 @@ a.link {
         color: white;
     }
 
-input {
-     border: 0;
-     padding: 10px;
-     font-size: 18px;
-   }
-   input[type="submit"] {
+
+
+input[type="submit"] {
      color: white;
      background: red;
+     padding: 10px;
    }
+
+
+
+input[type=checkbox] {background-color: black;
+color: white;
+padding-top: 10px
+padding-right:10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
 
 footer {
   text-align: center;
