@@ -2,9 +2,9 @@
 <html>
   <head>
     <title>Sign Up</title>
-      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="styles.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -13,10 +13,11 @@
           <a class="navbar-brand" href="index.html">Yoga @ Acas</a>
         </div>
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="meettheteacher.html">Teacher</a></li>
         <li class="active"><a href="signup.html">Sign up</a></li>
+        <li><a href="meettheteacher.html">Teacher</a></li>
         <li><a href="Things you need to know.html">Details</a></li>
+        <li><a href="index.html">Home</a></li>
+
       </ul>
     </div>
   </nav>
@@ -26,7 +27,7 @@
     </div>
 
 
-    <form>
+    <form action="/form.php" target="_self" method=POST>
       <div class="form">
         <span First name:></span> <br>
         <input type="text" name="firstname" class='text-box'><br>
@@ -37,6 +38,7 @@
         <input type="checkbox" name="yoga goals" value="strength">I want to improve my strength<br></span>
         <input type="checkbox" name="yoga goals" value="fitness">I want to feel fitter<br></span>
         <input type="checkbox" name="yoga goals" value="calmer">I want to feel calmer<br></span>
+
         Email: <br>
         <input type="email" placeholder="Your Acas email address" class='text-box'><br>
         Telephone: <br>
@@ -53,6 +55,7 @@
 
 <div class="popup" onclick="myFunction()">Privacy
     <span class="popuptext" id="Privacy">We will keep your data safe, and promise not to share it with anyone</span>
+
 
 <script>
   function myFunction() {
