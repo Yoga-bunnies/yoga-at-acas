@@ -27,7 +27,8 @@
     </div>
 
 
-    <form action="/form.php" target="_self" method=POST>
+    <form action="http://52.56.219.225/form.php" target="_self" method=POST>
+      <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
       <div class="form">
         <span First name:></span> <br>
         <input type="text" name="firstname" class='text-box'><br>
