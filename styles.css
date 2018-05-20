@@ -6,6 +6,7 @@ h1 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   font-size: 62px;
+  padding: 30px
     }
 h2 {
   text-align: center;
@@ -56,6 +57,7 @@ div.image img {
     width: 30vw;
     border-radius: 50%;
     height: 30vw;
+    margin-bottom: 30px
     }
 
 div.thumbnail img {
@@ -78,33 +80,45 @@ div.bio {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     max-width: 700px;
-      }
-      div.form {
-        background-color: black;
-        color: white;
-        font-size: 18px;
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-      }
+  }
 
-div.contact {
-  background-color: black;
-  color: white;
-  font-size: 24px;
-  padding-top: 20px;
+
+div.form {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+
+  }
+
+
+div.form p {
+    color: white;
+    font-size: 22px;
+    padding top: 30px
+  }
+
+div.form p.inline {
+    width: auto;
+    display: inline;
+  }
+
+div.form2 {background-color: black;
+color: white;
+font-size: 22px;
 }
+
+div.form2 p {
+  color: white;
+  font-size: 22px;
+  -webkit-padding-before: 15px;
+}
+
 
 div.form .text-box {
   width: 400px;
+  -webkit-margin-after: 15px;
 }
 
-div.form.span {
-  color: white;
-  font-size: 18px;
-  padding: 100px;
-}
 
 a.link {
   background-color: white;
@@ -134,16 +148,16 @@ input[type="submit"] {
      color: white;
      background: red;
      padding: 10px;
+     margin-top: 20px;
+     margin-bottom: 30px;
    }
 
 
 
 input[type=checkbox] {background-color: black;
 color: white;
-padding-top: 10px
-padding-right:10px;
-padding-bottom: 10px;
-padding-left: 10px;
+margin-right: 10px;
+
 }
 
 footer {

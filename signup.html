@@ -30,25 +30,34 @@
     <form action="http://52.56.219.225/form.php" target="_self" method=POST>
       <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
       <div class="form">
-        <span First name:></span> <br>
+        <p>First name:</p>
         <input type="text" name="firstname" class='text-box'><br>
-        <span Last name:></span> <br>
-        <input type="text" name="lastname" class='text-box'><br>
-        Yoga goals (tick all that apply): <br>
-        <input type="checkbox" name="yoga goals" value="flexibility"><span I want to increase my flexibility></span> <br>
-        <input type="checkbox" name="yoga goals" value="strength">I want to improve my strength<br></span>
-        <input type="checkbox" name="yoga goals" value="fitness">I want to feel fitter<br></span>
-        <input type="checkbox" name="yoga goals" value="calmer">I want to feel calmer<br></span>
-
-        Email: <br>
+        <p>Last name:</p>
+        <p><input type="text" name="lastname" class='text-box'></p><br>
+        <p>Yoga goals (tick all that apply):</p>
+        <div class="option">
+        <input type="checkbox" name="yoga goals" value="flexibility" /><p class="inline">I want to increase my flexibility<br></p>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="yoga goals" value="strength" /><p class="inline">I want to improve my strength<br></p>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="yoga goals" value="fitness" /><p class="inline">I want to feel fitter<br></p>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="yoga goals" value="calmer" /><p class="inline">I want to feel calmer<br></p>
+      </div>
+      <div class="form2">
+        <p>Email: </p>
         <input type="email" placeholder="Your Acas email address" class='text-box'><br>
-        Telephone: <br>
+        <p>Telephone: </p>
         <input type="Telephone" placeholder="Your preferred contact number" class='text-box'><br>
-        Commitment: <br>
+        <p>Commitment:</p>
         <input type="radio" name="commitment" value="declaration"> By submitting this form I am committing to pay £60 to secure my place for the next six yoga classes<br>
         <input type="submit" value="Submit">
       </div>
-    </form>
+    </div>
+  </form>
 
 <footer>
   <p>Created by: Cheryl McMillan, Phillipa Newis, Cate McLaurin</p>
