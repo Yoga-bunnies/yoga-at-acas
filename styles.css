@@ -8,6 +8,17 @@ h1 {
   font-size: 62px;
   padding: 30px
     }
+h2 {
+  text-align: center;
+  background: black;
+  color: white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+        }
+
 body {
     text-align: center;
     background: black;
@@ -56,7 +67,7 @@ div.thumbnail img {
   }
 
 div.bio {
-  max-width: 500px;
+  max-width: 820px;
     margin: auto;
     border: 3px solid white;
     padding: 25px;
@@ -70,6 +81,7 @@ div.bio {
     font-weight: 300;
     max-width: 700px;
   }
+
 
 div.form {
     background-color: black;
@@ -118,7 +130,7 @@ a.link {
   display: inline-block;
     }
 
-    ul.buttons li {
+    div.buttons {
       display: inline-block;
       text-align: center;
       border: 2px solid;
