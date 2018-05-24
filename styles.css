@@ -117,6 +117,8 @@ div.form2 p {
 div.form .text-box {
   width: 400px;
   -webkit-margin-after: 15px;
+  background-color: white;
+  color: black;
 }
 
 

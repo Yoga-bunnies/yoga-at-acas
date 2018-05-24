@@ -26,7 +26,9 @@
     <img src="http://ellenhorn.com/blog/wp-content/uploads/2017/03/542ab3194a2f09b8094f074009bd2172.png"/>
   </div>
 
-    <form action="/form.php" target="_self" method=POST>
+
+  
+      <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>
       <div class="form">
         <p>First name:</p>
         <input type="text" name="firstname" class='text-box'><br>
